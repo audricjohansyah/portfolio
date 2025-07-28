@@ -114,7 +114,7 @@ export default function HomePage() {
               variants={itemVariants}
               className="text-2xl font-bold text-gray-900 mb-1 text-center"
             >
-              Hello, I'm Audric 👋
+              Hello, I&apos;m Audric 👋
             </motion.h1>
             
             <motion.p 
