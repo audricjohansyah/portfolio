@@ -52,7 +52,7 @@ const skills = [
 
 const contacts = [
   { icon: <FaEnvelope size={20} />, label: 'Email', url: 'mailto:audricjohansyah@gmail.com' },
-  { icon: <FaLine size={20} />, url: 'https://line.me/ti/p/MPG4lDwzdw', label: 'Line' },
+  { icon: <FaLine size={20} />, url: 'https://line.me/ti/p/MPG4lDwzdw', label: 'LINE' },
   { icon: <FaWhatsapp size={20} />, url: 'https://wa.me/6281385217010', label: 'WhatsApp' },
   { icon: <FaDiscord size={20} />, url: 'https://discord.com/users/459272476065529856', label: 'Discord' },
 ]
@@ -169,7 +169,7 @@ export default function HomePage() {
               <h2 className="text-xl font-bold text-gray-900 mb-3 pb-2 border-b border-gray-200">Technical Skills</h2>
               <motion.div 
                 variants={containerVariants}
-                className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3"
+                className="flex flex-wrap justify-center gap-3"
               >
                 {skills.map((skill, idx) => (
                   <motion.a
@@ -183,7 +183,8 @@ export default function HomePage() {
                       y: -3,
                       boxShadow: '0 2px 4px -1px rgba(0, 0, 0, 0.1)'
                     }}
-                    className="flex flex-col items-center p-3 rounded-lg bg-white border border-gray-200 hover:border-blue-200 transition-all"
+                    className="flex flex-col items-center p-3 rounded-lg bg-white border border-gray-200 hover:border-blue-200 transition-all
+                              w-[calc(50%-12px)] sm:w-[calc(33.333%-12px)] md:w-[calc(25%-12px)] lg:w-[calc(20%-12px)]"
                   >
                     {skill.icon}
                     <span className="mt-1.5 text-xs font-medium text-gray-700">{skill.name}</span>
