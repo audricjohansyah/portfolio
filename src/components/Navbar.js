@@ -1,24 +1,34 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
-    { name: "Experience", path: "/experience" }
+    { name: "Experiences", path: "/experiences" }
   ];
 
   return (
     <header className="w-full px-4 py-3 border-b bg-white/80 backdrop-blur-sm shadow-sm">
       <div className="w-full flex justify-between items-center">
-        <motion.h1 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-lg sm:text-xl font-bold text-gray-800 dark:text-gray-100 ml-2 sm:ml-4 tracking-tight"
-            >
-            Alexander Audric Johansyah
-        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="ml-6 sm:ml-8"
+        >
+          <div className="w-10 h-10 sm:w-12 sm:h-12 relative">
+            <Image 
+              src="/AAJ.ico" 
+              alt="AAJ Logo"
+              width={48}
+              height={48}
+              className="object-contain"
+              priority
+            />
+          </div>
+        </motion.div>
     
         <nav className="flex space-x-4 sm:space-x-6 mr-2 sm:mr-4">
           {navItems.map((item, index) => (
