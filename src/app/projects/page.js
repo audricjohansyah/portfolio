@@ -33,6 +33,18 @@ const projects = [
   },
   {
     id: 3,
+    title: "ApapMedika - Pharmacy System",
+    period: "Aug 2024 - Dec 2024",
+    description: "Web-based pharmacy system with CRUD for medicines and prescriptions, plus usage statistics. Built with Spring Boot and PostgreSQL for the Enterprise Application Architecture course.",
+    role: "Full-stack Developer",
+    tech: ["Spring Boot", "PostgreSQL", "HTML/CSS"],
+    images: ["/ApapMedika/ApapmedikaHome.jpg", "/ApapMedika/ApapmedikaMedicine.jpg","/ApapMedika/ApapmedikaMedicineDetail.jpg",
+        "/ApapMedika/ApapmedikaMedicineAdd.jpg", "/ApapMedika/ApapmedikaMedicineUpdate.jpg", "/ApapMedika/ApapmedikaMedicineRestock.jpg","/ApapMedika/ApapmedikaPrescription.jpg", "/ApapMedika/ApapmedikaPrescriptionDetail.jpg",
+         "/ApapMedika/ApapmedikaPrescriptionAdd.jpg", "/ApapMedika/ApapmedikaStatistics.jpg"],
+    github: "https://github.com/audricjohansyah/apapmedikapharmacy"
+  },
+  {
+    id: 4,
     title: "Marmut",
     period: "Jan 2024 - Jun 2024",
     description: "Music streaming platform with podcast features, built using Django and SQL. Includes podcast playback, playlist management, and chart display. Made for Database course at UI.",
@@ -43,7 +55,7 @@ const projects = [
     github: "https://github.com/basdat-d1"
   },
   {
-    id: 4,
+    id: 5,
     title: "Read & Brew",
     period: "Aug 2023 - Dec 2023",
     description: "Cross-platform café app developed for the Platform-Based Programming course at UI. Allows users to order food and drinks, as well as borrow, return, and review books. Built using Django (web) and Flutter (mobile).",
@@ -54,7 +66,7 @@ const projects = [
     github: "https://github.com/PBP-C08"
   },
   {
-    id: 5,
+    id: 6,
     title: "Soundwave",
     period: "Aug 2023 - Dec 2023",
     description: "Basic cross-platform music album manager with real-time updates. Built with Django and Flutter as an intro to full-stack dev.",
