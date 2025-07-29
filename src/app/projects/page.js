@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "ApapMedika - Pharmacy System",
+    title: "ApapMedika - Pharmacy",
     period: "Aug 2024 - Dec 2024",
     description: "Web-based pharmacy system with CRUD for medicines and prescriptions, plus usage statistics. Built with Spring Boot and PostgreSQL for the Enterprise Application Architecture course.",
     role: "Full-stack Developer",
