@@ -65,8 +65,8 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            href="/Alexander Audric Johansyah - CV.pdf"
-            download="Alexander Audric Johansyah - CV.pdf"
+            href="/Alexander Audric Johansyah - Resume.pdf"
+            download="Alexander Audric Johansyah - Resume.pdf"
             className="flex items-center gap-1.5 px-3 py-1.5 lg:px-4 lg:py-2 text-sm lg:text-base bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors shadow-sm"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

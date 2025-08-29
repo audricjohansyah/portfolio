@@ -7,31 +7,38 @@ import Image from 'next/image';
 import {
   FaJava, FaPython, FaHtml5, FaCss3Alt, FaReact,
   FaGithub, FaLinkedin, FaInstagram, FaLine,
-  FaDiscord, FaWhatsapp, FaSpotify, FaEnvelope, FaGitAlt
+  FaDiscord, FaWhatsapp, FaSpotify, FaEnvelope, FaGitAlt,
+  FaLaravel, FaDocker, FaBootstrap 
 } from 'react-icons/fa'
 import {
   SiFlutter,
   SiDjango,
-  SiSpringboot,
-  SiPostgresql,
+  SiSpring ,
   SiTableau,
   SiGooglecloud,
+  SiPhp
 } from 'react-icons/si';
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const skills = [
   { icon: <FaPython size={32} style={{ color: '#3776AB' }} />, url: 'https://www.python.org/', name: 'Python' },
   { icon: <FaJava size={32} style={{ color: '#ED1D25' }} />, url: 'https://www.java.com/', name: 'Java' },
+  { icon: <SiPhp size={32} style={{ color: '#777BB3' }} />, url: 'https://www.php.net/', name: 'PHP' },
   { icon: <SiFlutter size={32} style={{ color: '#02569B' }} />, url: 'https://flutter.dev/', name: 'Flutter' },
   { icon: <FaGitAlt size={32} style={{ color: '#F05032' }} />, url: 'https://git-scm.com/', name: 'Git' },
   { icon: <SiDjango size={32} style={{ color: '#092E20' }} />, url: 'https://www.djangoproject.com/', name: 'Django' },
-  { icon: <SiSpringboot size={32} style={{ color: '#6DB33F' }} />, url: 'https://spring.io/projects/spring-boot', name: 'Spring' },
-  { icon: <SiPostgresql size={32} style={{ color: '#336791' }} />, url: 'https://www.postgresql.org/', name: 'PostgreSQL' },
-  { icon: <FaCss3Alt size={32} style={{ color: '#1572B6' }} />, url: 'https://developer.mozilla.org/en-US/docs/Web/CSS', name: 'CSS' },
+  {icon: <FaLaravel size={32} style={{ color: '#FF2D20' }} />, url: 'https://laravel.com/', name: 'Laravel' },
+  { icon: <SiSpring  size={32} style={{ color: '#6DB33F' }} />, url: 'https://spring.io/projects/spring-boot', name: 'Spring' },
+  { icon: <BiLogoPostgresql size={32} style={{ color: '#336791' }} />, url: 'https://www.postgresql.org/', name: 'PostgreSQL' },
   { icon: <FaHtml5 size={32} style={{ color: '#E34F26' }} />, url: 'https://developer.mozilla.org/en-US/docs/Web/HTML', name: 'HTML' },
+  { icon: <FaCss3Alt size={32} style={{ color: '#1572B6' }} />, url: 'https://developer.mozilla.org/en-US/docs/Web/CSS', name: 'CSS' },
+  {icon: <FaBootstrap size={32} style={{ color: '#7952B3' }} />, url: 'https://getbootstrap.com/', name: 'Bootstrap' },
+  {icon: <RiTailwindCssFill size={32} style={{ color: '#06B6D4' }} />, url: 'https://tailwindcss.com/', name: 'Tailwind CSS' },
   { icon: <SiTableau size={32} style={{ color: '#E97627' }} />, url: 'https://www.tableau.com/', name: 'Tableau' },
   { icon: <FaReact size={32} style={{ color: '#61DAFB' }} />, url: 'https://react.dev/', name: 'React' },
   { icon: <SiGooglecloud size={32} style={{ color: '#4285F4' }} />, url: 'https://cloud.google.com/', name: 'GCP' },
+  { icon: <FaDocker size={32} style={{ color: '#2496ED' }} />, url: 'https://www.docker.com/', name: 'Docker' },
   { icon: <RiNextjsFill size={32} style={{ color: '#000000' }} />, url: 'https://nextjs.org/', name: 'Next.js' },
   {
     icon: (
@@ -47,7 +54,7 @@ const skills = [
     ),
     url: 'https://powerbi.microsoft.com/',
     name: 'Power BI'
-  }
+  },
 ];
 
 const contacts = [

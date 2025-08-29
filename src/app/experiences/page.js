@@ -8,16 +8,30 @@ export default function ExperiencePage() {
   const [isLoading, setIsLoading] = useState(true)
   const experiences = [
     {
+      title: "IT Application Developer Intern",
+      organization: "PT Toyoda Gosei Indonesia",
+      type: "Full-time",
+      duration: "Aug 2025 - Feb 2026 · 6 mos",
+      location: "Karawang, West Java, Indonesia · On-site",
+      bullets: [
+        "Built responsive web interfaces using HTML, CSS, and JavaScript (jQuery) to deliver user-friendly front-end features.",
+        "Developed back-end services with PHP/Laravel, implementing CRUD functionality and business logic for internal applications.",
+        "Collaborated using Git version control, ensuring smooth teamwork and code management.",
+        "Conducted application testing and debugging, resolving errors and improving performance through systematic problem-solving.  ",
+        "Prepared technical documentation and user guides, and presented project outcomes to mentors and stakeholders."
+      ]
+    },
+    {
       title: "Teaching Assistant for Information Systems Management",
       organization: "University of Indonesia",
       type: "Full-time",
       duration: "Jan 2025 - Jun 2025 · 6 mos",
       location: "Depok, West Java, Indonesia · Hybrid",
       bullets: [
-        "Reviewed and graded individual and group assignments submitted by students",
-        "Supervised students during quizzes and examinations",
-        "Responded to students' questions and provided academic support",
-        "Relayed important announcements and updates from lecturers to students"
+        "Reviewed and graded individual and group assignments submitted by students.",
+        "Supervised students during quizzes and examinations.",
+        "Responded to students' questions and provided academic support.",
+        "Relayed important announcements and updates from lecturers to students."
       ]
     },
     {
@@ -31,18 +45,18 @@ export default function ExperiencePage() {
           title: "PIC of Editorial Marketing",
           duration: "Jan 2024 to Dec 2024 · 1 yr",
           bullets: [
-            "Managed a team to produce and publish marketing content to COMPFEST's official Medium blog in both English and Indonesian",
-            "Oversaw the editorial process from topic planning to proofreading and publishing, ensuring consistency and brand alignment",
-            "Proofread all submitted articles and contributed as a writer for selected pieces",
-            "Published 15+ articles, helping boost COMPFEST's online visibility and engagement"
+            "Managed a team to produce and publish marketing content to COMPFEST's official Medium blog in both English and Indonesian.",
+            "Oversaw the editorial process from topic planning to proofreading and publishing, ensuring consistency and brand alignment.",
+            "Proofread all submitted articles and contributed as a writer for selected pieces.",
+            "Published 15+ articles, helping boost COMPFEST's online visibility and engagement."
           ]
         },
         {
           title: "Staff of Editorial Marketing",
           duration: "Apr 2023 to Dec 2023 · 9 mos",
           bullets: [
-            "Contributed articles to COMPFEST's official Medium blog in both Indonesian and English",
-            "Delivered high-quality, well-researched, and engaging content to support the event's digital presence"
+            "Contributed articles to COMPFEST's official Medium blog in both Indonesian and English.",
+            "Delivered high-quality, well-researched, and engaging content to support the event's digital presence."
           ]
         }
       ]
@@ -54,8 +68,8 @@ export default function ExperiencePage() {
       duration: "Jan 2023 to Jan 2024 · 1 yr 1 mo",
       location: "Depok, West Java, Indonesia · On-site",
       bullets: [
-        "Assisted in planning and organizing events to foster community and strengthen relationships among KMK Fasilkom UI members",
-        "Collaborated with fellow committees to develop engaging event concepts and activities"
+        "Assisted in planning and organizing events to foster community and strengthen relationships among KMK Fasilkom UI members.",
+        "Collaborated with fellow committees to develop engaging event concepts and activities."
       ]
     }
   ]
