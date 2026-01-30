@@ -8,12 +8,28 @@ export default function ExperiencePage() {
   const [isLoading, setIsLoading] = useState(true)
   const experiences = [
     {
+      title: "Teaching Assistant for Information Systems Development Project",
+      organization: "University of Indonesia",
+      type: "Full-time",
+      duration: "Jan 2026 - Present",
+      location: "Depok, West Java, Indonesia · Hybrid",
+      bullets: [
+        "Mentored student teams in developing end-to-end information systems for external clients using Agile/Scrum methodologies.",
+        "Guided teams through the full Software Development Life Cycle(SDLC), including requirement analysis, system architecture design, and implementation.",
+        "Facilitated Scrum ceremonies and monitored project progress to ensure adherence to sprint timelines, deliverables, and industry best practices.",
+        "Conducted technical reviews of code quality and documentation, providing constructive feedback to maintain high software standards and system maintainability.",
+        "Evaluated project outcomes and team performance based on technical implementation, teamwork, and the successful delivery of the final product."
+      ]
+    },
+    {
       title: "IT Application Developer Intern",
       organization: "PT Toyoda Gosei Indonesia",
-      type: "Full-time",
-      duration: "Aug 2025 - Feb 2026 · 6 mos",
+      type: "Internship",
+      duration: "Aug 2025 - Jan 2026 · 5 mos",
       location: "Karawang, West Java, Indonesia · On-site",
       bullets: [
+        "Developed a Business Travel Permit system featuring a structured approval workflow, Role-Based Access Control (RBAC), and a monitoring dashboard to digitize manual processes.",
+        "Engineered a digital Fire Extinguisher monitoring system with QR code tracking, interactive maps (Leaflet.js), image upload capabilities, and a centralized dashboard for real-time inspections.",
         "Built responsive web interfaces using HTML, CSS, and JavaScript (jQuery) to deliver user-friendly front-end features.",
         "Developed back-end services with PHP/Laravel, implementing CRUD functionality and business logic for internal applications.",
         "Collaborated using Git version control, ensuring smooth teamwork and code management.",
@@ -93,7 +109,7 @@ export default function ExperiencePage() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 to-blue-50">
       <Navbar />
-      
+
       <main className="flex-grow px-4 py-8 md:py-8 max-w-4xl mx-auto w-full">
         <motion.div
           initial={{ opacity: 0 }}
@@ -111,7 +127,7 @@ export default function ExperiencePage() {
           ))}
         </div>
       </main>
-      
+
       <Footer />
     </div>
   )
@@ -121,10 +137,10 @@ function ExperienceCard({ experience, index }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
-      whileInView={{ 
-        opacity: 1, 
+      whileInView={{
+        opacity: 1,
         y: 0,
-        transition: { 
+        transition: {
           duration: 0.4,
           delay: index * 0.1
         }
@@ -151,7 +167,7 @@ function ExperienceCard({ experience, index }) {
       {experience.bullets && (
         <ul className="mt-4 space-y-2 pl-5 list-disc">
           {experience.bullets.map((bullet, i) => (
-            <motion.li 
+            <motion.li
               key={i}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -168,7 +184,7 @@ function ExperienceCard({ experience, index }) {
       {experience.roles && (
         <div className="mt-6 space-y-6">
           {experience.roles.map((role, i) => (
-            <motion.div 
+            <motion.div
               key={i}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
