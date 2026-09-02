@@ -11,7 +11,7 @@ export default function ExperiencePage() {
       title: "Teaching Assistant for Information Systems Development Project",
       organization: "University of Indonesia",
       type: "Full-time",
-      duration: "Jan 2026 - Present",
+      duration: "Jan 2026 - Jun 2026",
       location: "Depok, West Java, Indonesia · Hybrid",
       bullets: [
         "Mentored student teams in developing end-to-end information systems for external clients using Agile/Scrum methodologies.",
