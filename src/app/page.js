@@ -166,8 +166,7 @@ export default function HomePage() {
               </h2>
               <p className="text-gray-600 text-base mb-6 leading-relaxed">
                 Passionate about turning ideas into functional websites, managing projects efficiently, 
-                and extracting insights from data using business intelligence tools. Currently pursuing 
-                Information Systems with focus on web development, data analysis and project management.
+                and extracting insights from data using business intelligence tools. I'm an Information Systems student with focus on web development, data analysis and project management.
               </p>
             </motion.div>
 

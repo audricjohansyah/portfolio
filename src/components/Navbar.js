@@ -107,8 +107,8 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="/Alexander Audric Johansyah - CV.pdf"
-              download="Alexander Audric Johansyah - CV.pdf"
+              href="/Alexander Audric Johansyah - Resume.pdf"
+              download="Alexander Audric Johansyah - Resume.pdf"
               className="flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
